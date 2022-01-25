@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dd9c65b1c25047e49e995fce11e404c, type: 3}
+  m_Name: GameContent
+  m_EditorClassIdentifier: Assembly-CSharp:ContentProvider.Implementation:GameContentScriptable
+  woodenTile: {fileID: 1191387359517991415, guid: 59fea829579bd4f6dae617c2809db281,
+    type: 3}
+  tiles:
+  - key: 0
+    model: {fileID: 4629640917952405512, guid: 93ddbb94dfaf04ddcab33e8c982fba0c, type: 3}
+  - key: 1
+    model: {fileID: 4629640917952405512, guid: da16ae8a639014e00a86d05dd61dba90, type: 3}
+  - key: 2
+    model: {fileID: 4629640917952405512, guid: 1adf3da324cfc40889229901c71d1c78, type: 3}
+  - key: 3
+    model: {fileID: 4629640917952405512, guid: acbcabb54c39d4ba4b626280ace529f3, type: 3}
+  - key: 4
+    model: {fileID: 4629640917952405512, guid: ed5571e9437914646b181b2a1818a704, type: 3}
+  - key: 5
+    model: {fileID: 4629640917952405512, guid: fb5dc6277c6834ffa974d19f2ee2cf5b, type: 3}

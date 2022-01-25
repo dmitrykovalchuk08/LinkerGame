@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Board
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: cdc95c225e586448299b3fe03b2ea215, type: 3}
+    - {fileID: 2800000, guid: cefc06cd11c3b4cdeb20b08f73670e3b, type: 3}
+    - {fileID: 2800000, guid: c4ab0cc4785e74d9a9265b2e8811fde7, type: 3}
+    - {fileID: 2800000, guid: 018fb0218cf5948db9af99d6daf6ae2c, type: 3}
+    - {fileID: 2800000, guid: 225d90ff5f41f41b0802a9b573fbd51b, type: 3}
+    - {fileID: 2800000, guid: 6f61cddd68c064286be4f72664be12af, type: 3}
+    - {fileID: 2800000, guid: 34b29d99e639a444c913b439531faae4, type: 3}
+    - {fileID: 2800000, guid: 921de8a9a6de044e587d59a95dc4877f, type: 3}
+    totalSpriteSurfaceArea: 80000
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 018fb0218cf5948db9af99d6daf6ae2c, type: 3}
+  - {fileID: 21300000, guid: cdc95c225e586448299b3fe03b2ea215, type: 3}
+  - {fileID: 21300000, guid: c4ab0cc4785e74d9a9265b2e8811fde7, type: 3}
+  - {fileID: 21300000, guid: 34b29d99e639a444c913b439531faae4, type: 3}
+  - {fileID: 21300000, guid: 921de8a9a6de044e587d59a95dc4877f, type: 3}
+  - {fileID: 21300000, guid: cefc06cd11c3b4cdeb20b08f73670e3b, type: 3}
+  - {fileID: 21300000, guid: 6f61cddd68c064286be4f72664be12af, type: 3}
+  - {fileID: 21300000, guid: 225d90ff5f41f41b0802a9b573fbd51b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tile_rainbow
+  - tile_red
+  - tile_green
+  - bg_tile
+  - whiteSquare
+  - tile_blue
+  - tile_yellow
+  - tile_pink
+  m_RenderDataMap: {}
+  m_Tag: Board
+  m_IsVariant: 0

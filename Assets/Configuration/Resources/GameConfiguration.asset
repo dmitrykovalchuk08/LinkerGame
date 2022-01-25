@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725f47af1f5a41b9973d0fa3a19c9cc2, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  LevelData:
+    Data:
+    - number: 1
+      BoardWidth: 4
+      BoardHeight: 6
+      Moves: 10
+      WinConditions:
+      - ActionType: 0
+        BlockType: 0
+        Quantity: 20
+      - ActionType: 0
+        BlockType: 2
+        Quantity: 10
+      ObjectProbabilities:
+      - type: 0
+        Probability: 0.5
+      - type: 2
+        Probability: 0.5
+      - type: 3
+        Probability: 0.3
+      - type: 4
+        Probability: 0.3
+      - type: 5
+        Probability: 0.3
+    - number: 2
+      BoardWidth: 6
+      BoardHeight: 6
+      Moves: 6
+      WinConditions:
+      - ActionType: 0
+        BlockType: 5
+        Quantity: 20
+      ObjectProbabilities:
+      - type: 3
+        Probability: 0.2
+      - type: 2
+        Probability: 0.2
+      - type: 5
+        Probability: 0.3
+      - type: 1
+        Probability: 0.4
+  VisualConfig:
+    BoardCenter: {x: 0, y: 0}
+    CellSize: 100
+    BlockAnimationConfiguration:
+      FallSpeed: 0.15
+      FallDelay: 0.3
+      FallCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      BounceCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1.9183655
+          outSlope: -1.9183655
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.026595771
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      idleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4

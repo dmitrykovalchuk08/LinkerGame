@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e53ee767c994121be512d865851f737, type: 3}
+  m_Name: UIContent
+  m_EditorClassIdentifier: 
+  sprites:
+  - key: Any
+    icon: {fileID: 21300000, guid: 018fb0218cf5948db9af99d6daf6ae2c, type: 3}
+  - key: Yellow
+    icon: {fileID: 21300000, guid: 6f61cddd68c064286be4f72664be12af, type: 3}
+  - key: Red
+    icon: {fileID: 21300000, guid: cdc95c225e586448299b3fe03b2ea215, type: 3}
+  - key: Pink
+    icon: {fileID: 21300000, guid: 225d90ff5f41f41b0802a9b573fbd51b, type: 3}
+  - key: Green
+    icon: {fileID: 21300000, guid: c4ab0cc4785e74d9a9265b2e8811fde7, type: 3}
+  - key: Blue
+    icon: {fileID: 21300000, guid: cefc06cd11c3b4cdeb20b08f73670e3b, type: 3}
